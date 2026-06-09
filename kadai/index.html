@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width", initial-scale="1.0">
+     <title>都道府県別野菜の生産量と消費量の比較</title>
+     <link rel="stylesheet" href="style.css">
+  </head>  
+
+  <body>
+     <h1>都道府県別野菜の生産量と消費量の比較</h1>
+
+     <div>
+        <label for="itemselect">品目を選択：</label>
+        <select id="item">
+          <option value="tomato">トマト</option>
+          <option value="cabbage">キャベツ</option>
+          <option value="onion">玉ねぎ</option>
+          <option value="potato">じゃがいも</option>
+          <option value="eggplant">ナス</option>
+        </select>
+     </div>
+  </body>
+
+  <main class="main-content">
+ 
+     <section class="map-section">
+       <img src="todouhuken map.jpg">
+     </section>
+
+     <section class="bar-section">
+       <h2>東京都のデータ</h2>
+
+       <div class="chart">
+          <div class="productionvolume-bar"></div>
+          <div class="consumption-bar"></div>
+       </div>
+
+       <div class="chart-labels">
+         <div class="label1">生産量</div><div class="label2">消費量</div>
+       </div>
+
+       <div class="deta-display">
+         <p>地図上の都道府県をクリックするとここにグラフが表示されます。</p>
+       </div>
+      </section>
+
+   </main>
+</html>
